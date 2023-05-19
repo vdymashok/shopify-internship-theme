@@ -12,9 +12,7 @@
                         </div>
 
                         <div>
-                            {{ shop.url }}
-                            {{ product.url }}
-                            {{ canonical_url }}
+                            {{ shop.url | plus: product.url }}
                         </div>
                     </div>
                 {% endif %}
