@@ -18,7 +18,11 @@ defer="defer"
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-        $('.slider-items').slick();
+        $('.slider-items').slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1
+        });
     });
 </script>
 
