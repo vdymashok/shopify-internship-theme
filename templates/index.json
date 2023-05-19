@@ -214,7 +214,7 @@
     "1b19adb0-d470-4658-a7f6-f8b1a76c7a97": {
       "type": "sections-slider-products",
       "blocks": {
-        "f56faf66-6fbe-45e9-a5f2-9bd34fe2bc71": {
+        "872af2bb-14c8-47b6-a563-040e72125646": {
           "type": "product",
           "settings": {
             "slider_product": "yeezy-foam-rnnr-sand"
@@ -222,7 +222,7 @@
         }
       },
       "block_order": [
-        "f56faf66-6fbe-45e9-a5f2-9bd34fe2bc71"
+        "872af2bb-14c8-47b6-a563-040e72125646"
       ],
       "settings": {
         "include_margins": true
