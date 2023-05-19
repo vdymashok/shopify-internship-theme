@@ -210,12 +210,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "7b101937-aea3-4c93-b356-43a57618fd4a": {
-      "type": "sections-slider-products",
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -224,7 +218,6 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn",
-    "7b101937-aea3-4c93-b356-43a57618fd4a"
+    "multicolumn"
   ]
 }
