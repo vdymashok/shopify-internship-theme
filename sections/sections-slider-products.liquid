@@ -1,7 +1,3 @@
-{{ 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js' | asset_url }}" defer="defer"></script>
-<script src="{{ 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js' | asset_url }}" defer="defer"></script>
-
 <div class="slider-wrapper">
     <div class="slider-items">
         <div class="slider-item">1</div>
@@ -10,8 +6,12 @@
     </div>
 </div>
 
+{{ 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js' | asset_url }}" defer="defer"></script>
+
 <script>
-    window.addEventListener("DOMContentLoaded", (event) => {
+    document.addEventListener("DOMContentLoaded", (event) => {
         $('.slider-items').slick();
     });
 </script>
