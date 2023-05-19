@@ -1,10 +1,17 @@
-<div class="{% if section.settings.include_margins %}page-width{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-  {%- for block in section.blocks -%}
-    {% render block %}
-  {%- endfor -%}
+{{ 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js' | asset_url }}" defer="defer"></script>
+
+<div class="slider-wrapper">
+    <div class="slider-items">
+        <div class="slider-item">1</div>
+        <div class="slider-item">2</div>
+        <div class="slider-item">3</div>
+    </div>
 </div>
 
-
+<script>
+    $('.slider-items').slick();
+</script>
 
 {% schema %}
 {
